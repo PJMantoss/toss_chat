@@ -1,4 +1,4 @@
-.App {
+.app {
   display: grid;
     height: 100%;
     grid-template-columns: repeat(6, 1fr);
@@ -10,23 +10,4 @@
         "r m m m m m"
         "r m m m m m"
         "n f f f f f";
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }

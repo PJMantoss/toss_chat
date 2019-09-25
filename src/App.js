@@ -7,10 +7,20 @@ import RoomList from './components/RoomList';
 import SendMessageForm from './components/SendMessageForm';
 import './App.css';
 
+import { tokenUrl, instanceLocator } from './config';
+
 class App extends React.Component {
+
+  componentDidMount() {
+    const chatManager = new Chatkit.ChatManager({
+      instanceLocator: instanceLocator
+    })
+  }
+
+
   render(){
     return (
-      <div className="App">
+      <div className="app">
         <RoomList />
         <MessageList />
         <SendMessageForm />
