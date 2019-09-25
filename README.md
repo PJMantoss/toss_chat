@@ -1,4 +1,4 @@
-Toss Chat is chat application build with React JS and Chatkit API. It's styled with CSS
+Toss Chat is a chat application build with React JS and Chatkit API. It's styled with CSS
 
 Date: 24-09-2019
 
